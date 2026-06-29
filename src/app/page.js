@@ -1,5 +1,10 @@
+import Home from "@/component/section/Home";
 import Image from "next/image";
 
-export default function Home() {
-  return <h2>Hello World</h2>;
+export default function Page() {
+  return (
+    <div className="mt-28">
+      <Home />
+    </div>
+  );
 }
